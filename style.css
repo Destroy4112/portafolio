@@ -26,7 +26,7 @@ html{
     align-items: center;
     padding: 15px 20px;
 }
-.contenedor-header header .logo a{
+.contenedor-header header .logo span{
     font-family: 'Righteous';
     font-size: 36px;
     color: #1CB698;
