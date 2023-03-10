@@ -69,7 +69,7 @@ html{
     padding: 20px;
     background-color: #1e2326;
     max-width: 350px;
-    margin-top: 5%;
+    margin-top: 7%;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
@@ -567,13 +567,12 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-image: url(img/contact_bg.png);
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
 }
 .contacto .contenido-seccion{
-    max-width: 1100px;
+    max-width: 800px;
     margin: auto;
 }
 .contacto h2{
@@ -586,7 +585,7 @@ html{
     display: flex;
 }
 .contacto .col{
-    width: 50%;
+    width: 100%;
     padding: 10px;
     position: relative;
 }
@@ -625,29 +624,6 @@ html{
 }
 .contacto button:hover .overlay{
     width: 100%;
-}
-.contacto .col img{
-    width: 100%;
-}
-.contacto .col .info{
-    position: absolute;
-    top: 40%;
-    background-color: #252A2E;
-    padding: 20px;
-    max-width: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.contacto .col .info ul{
-    list-style: none;
-}
-.contacto .col .info ul li{
-    margin-bottom: 20px;
-}
-.contacto .col .info ul li i{
-    color: #1CB698;
-    display: inline-block;
-    margin-right: 20px;
 }
 footer{
     background-color: #252A2E;
@@ -712,6 +688,17 @@ footer .arriba{
     }
 }
 @media screen and (max-width:700px){
+    .inicio .contenido-banner{
+        margin-top: 15%;
+        margin-top: auto;
+    }
+    .sobremi{
+        top: 0;
+    }
+    .sobremi .contenido-seccion{
+        display: block;
+        margin-top: -50px;
+    }
     .sobremi .fila{
         display: block;
     }
