@@ -247,153 +247,15 @@ html{
     margin-bottom: 25px;
 }
 .skills .skill > span{
-    font-weight: bold;
     display: block;
     margin-bottom: 10px;
 }
-.skills .skill .barra-skill{
-    height: 8px;
-    width: 80%;
-    background-color: #131517;
-    position: relative;
-    margin-bottom: 30px;
-}
-.skills .skill .progreso{
-    background-color: #1CB698;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 8px;
-}
-.skills .skill .barra-skill span{
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    background-color: #1CB698;
-    border-radius: 50px;
-    line-height: 40px;
-    text-align: center;
-    top: -17px;
-    right: -15px;
-    font-size: 14px;
-}
-/* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
-    width: 0%;
-    animation: 2s javascript forwards;
-}
-@keyframes javascript {
-    0%{width: 0%;}
-    100%{width: 60%;}
+
+.skills .skill > span::before {
+    content: "★";
+    margin-right: 10px;
 }
 
-.skills .skill .htmlcss{
-    width: 0%;
-    animation: 2s htmlcss forwards;
-}
-@keyframes htmlcss {
-    0%{width: 0%;}
-    100%{width: 85%;}
-}
-
-.skills .skill .vue{
-    width: 0%;
-    animation: 2s vue forwards;
-}
-@keyframes vue {
-    0%{width: 0%;}
-    100%{width: 70%;}
-}
-
-.skills .skill .react{
-    width: 0%;
-    animation: 2s react forwards;
-}
-@keyframes react {
-    0%{width: 0%;}
-    100%{width: 70%;}
-}
-
-.skills .skill .java{
-    width: 0%;
-    animation: 2s java forwards;
-}
-@keyframes java {
-    0%{width: 0%;}
-    100%{width: 90%;}
-}
-
-.skills .skill .php{
-    width: 0%;
-    animation: 2s php forwards;
-}
-@keyframes php {
-    0%{width: 0%;}
-    100%{width: 90%;}
-}
-
-.skills .skill .laravel{
-    width: 0%;
-    animation: 2s laravel forwards;
-}
-@keyframes laravel {
-    0%{width: 0%;}
-    100%{width: 70%;}
-}
-
-.skills .skill .bootstrap{
-    width: 0%;
-    animation: 2s bootstrap forwards;
-}
-@keyframes bootstrap {
-    0%{width: 0%;}
-    100%{width: 75%;}
-}
-
-.skills .skill .comunicacion{
-    width: 0%;
-    animation: 2s comunicacion forwards;
-}
-@keyframes comunicacion {
-    0%{width: 0%;}
-    100%{width: 90%;}
-}
-
-.skills .skill .trabajo{
-    width: 0%;
-    animation: 2s trabajo forwards;
-}
-@keyframes trabajo {
-    0%{width: 0%;}
-    100%{width: 85%;}
-}
-
-.skills .skill .creatividad{
-    width: 0%;
-    animation: 2s creatividad forwards;
-}
-@keyframes creatividad {
-    0%{width: 0%;}
-    100%{width: 60%;}
-}
-
-.skills .skill .dedicacion{
-    width: 0%;
-    animation: 2s dedicacion forwards;
-}
-@keyframes dedicacion {
-    0%{width: 0%;}
-    100%{width: 80%;}
-}
-
-.skills .skill .proyect{
-    width: 0%;
-    animation: 2s proyect forwards;
-}
-@keyframes proyect {
-    0%{width: 0%;}
-    100%{width: 80%;}
-}
 /* SECCION CURRICULUM */
 .curriculum{
     background-color: #1e2326;
